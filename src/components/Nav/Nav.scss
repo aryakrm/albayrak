@@ -1,0 +1,20 @@
+nav {
+  position: absolute;
+  width: 100vw;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 10%;
+    }
+  }
+  .nav-right {
+  }
+}
