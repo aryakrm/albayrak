@@ -1,6 +1,14 @@
 header {
   .intro {
-    position: relative;
-    z-index: 1;
+    video {
+      position: relative;
+      z-index: 1;
+    }
+    h1 {
+      color: white;
+      position: absolute;
+      z-index: 3;
+      top: 5rem;
+    }
   }
 }
