@@ -15,12 +15,24 @@ header {
     }
   }
   .contact-menu {
-    position: absolute;
+    position: fixed;
     z-index: 3;
     top: 50%;
     right: 0;
-    padding: 4rem 1rem;
+    padding: 1rem 1rem;
     border-radius: 10px 0 0 10px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    a {
+      svg {
+        font-size: 1.8rem;
+        fill: #fc983a;
+        &:hover {
+          fill: black;
+        }
+      }
+    }
   }
 }
