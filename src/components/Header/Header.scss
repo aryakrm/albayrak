@@ -8,7 +8,19 @@ header {
       color: white;
       position: absolute;
       z-index: 3;
-      top: 5rem;
+      top: 25rem;
+      left: 30%;
+      font-size: 5rem;
+      font-weight: 100;
     }
+  }
+  .contact-menu {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    right: 0;
+    padding: 4rem 1rem;
+    border-radius: 10px 0 0 10px;
+    background-color: white;
   }
 }
