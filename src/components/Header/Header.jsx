@@ -29,7 +29,7 @@ function Header() {
         <a href="mailto:info@albamtl.com" target="_blank">
           <AiFillMail />
         </a>
-        <a href="https://wa.me/905538846271" target="_blank">
+        <a href="https://wa.me/905534513885" target="_blank">
           <BsWhatsapp />
         </a>
       </div>

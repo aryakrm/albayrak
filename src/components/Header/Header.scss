@@ -1,17 +1,20 @@
 header {
+  width: 100%;
   .intro {
+    width: 100vw;
     video {
       position: relative;
       z-index: 1;
+      width: 100%;
     }
     h1 {
       color: white;
       position: absolute;
       z-index: 3;
-      top: 25rem;
-      left: 30%;
-      font-size: 5rem;
-      font-weight: 100;
+      top: 18rem;
+      left: 35%;
+      font-size: 4rem;
+      font-weight: 500;
     }
   }
   .contact-menu {

@@ -1,9 +1,10 @@
 import React from "react";
+import Sec1 from "../../components/Sec1/Sec1";
 
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="Home">
+      <Sec1 />
     </div>
   );
 }

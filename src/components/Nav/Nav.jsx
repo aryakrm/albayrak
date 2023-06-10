@@ -7,7 +7,6 @@ function Nav() {
       <div className="nav-left">
         <img src="/assets/albayrakLogo.png" alt="" />
       </div>
-      <div className="nav-right"></div>
     </nav>
   );
 }
