@@ -1,0 +1,22 @@
+.About {
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .about-text {
+    width: 50%;
+    height: 100%;
+    padding: 5rem;
+    background-color: rgb(255, 102, 0);
+    color: white;
+  }
+  .about-video {
+    width: 50%;
+    height: 100%;
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

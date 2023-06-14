@@ -1,19 +1,59 @@
 .Sec1 {
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem;
   gap: 2rem;
   div {
     width: 30%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .dokumlerImg {
       width: 100%;
+      position: relative;
+      z-index: 1;
+      border-radius: 10px;
     }
     &:hover {
       opacity: 0.5;
       cursor: pointer;
+    }
+    h2 {
+      position: absolute;
+      z-index: 4;
+      margin-top: 8rem;
+      color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Sec1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    div {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .dokumlerImg {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+      }
+
+      h2 {
+        margin-top: 3rem;
+        font-size: 1rem;
+      }
     }
   }
 }

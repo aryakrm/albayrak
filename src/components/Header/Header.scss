@@ -2,6 +2,10 @@ header {
   width: 100%;
   .intro {
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     video {
       position: relative;
       z-index: 1;
@@ -11,10 +15,31 @@ header {
       color: white;
       position: absolute;
       z-index: 3;
-      top: 18rem;
-      left: 35%;
-      font-size: 4rem;
+      font-size: 400%;
       font-weight: 500;
+    }
+    .mouse {
+      width: 50px;
+      height: 90px;
+      border: 2px solid #ffffff;
+      border-radius: 60px;
+      position: absolute;
+      z-index: 20;
+      margin-top: 20%;
+      &::before {
+        content: "";
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #ffffff;
+        border-radius: 50%;
+        opacity: 1;
+        animation: wheel 2s infinite;
+        -webkit-animation: wheel 2s infinite;
+      }
     }
   }
   .contact-menu {
@@ -34,6 +59,40 @@ header {
         fill: #fc983a;
         &:hover {
           fill: black;
+        }
+      }
+    }
+  }
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    .intro {
+      video {
+      }
+      h1 {
+        font-size: 200%;
+      }
+      .mouse {
+        width: 30px;
+        height: 50px;
+        &::before {
+          width: 6px;
+          height: 6px;
         }
       }
     }

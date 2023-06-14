@@ -4,15 +4,14 @@ import "./Sec1.scss";
 function Sec1() {
   return (
     <div className="Sec1">
-      <div>
+       <div>
         <img
           className="dokumlerImg"
-          src="assets/dokumler/celikDokum.jpg"
-          alt="celikDokum"
+          src="assets/dokumler/sferoDokum.jpg"
+          alt="sferoDokum"
         />
-        <h2>Çelik Döküm</h2>
+        <h2>Sfero Döküm</h2>
       </div>
-
       <div>
         <img
           className="dokumlerImg"
@@ -21,13 +20,14 @@ function Sec1() {
         />
         <h2>Pik Döküm</h2>
       </div>
+     
       <div>
         <img
           className="dokumlerImg"
-          src="assets/dokumler/sferoDokum.jpg"
-          alt="sferoDokum"
+          src="assets/dokumler/celikDokum.jpg"
+          alt="celikDokum"
         />
-        <h2>Sfero Döküm</h2>
+        <h2>Çelik Döküm</h2>
       </div>
     </div>
   );

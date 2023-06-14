@@ -82,3 +82,5 @@ const imageData = [
     alt: `image ${nanoid()}`,
   },
 ];
+
+export default imageData;
