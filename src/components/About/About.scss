@@ -101,3 +101,33 @@
     }
   }
 }
+@media screen and (max-width: 500px) {
+  .About {
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    margin: 110% 0 85% 0;
+    .about-text {
+      height: fit-content;
+      width: 50%;
+      text-align: center;
+      div {
+        display: flex;
+        flex-direction: column;
+        p {
+          &:first-of-type {
+            padding-bottom: 1rem;
+            border-right: none;
+            border-bottom: 1px dotted white;
+          }
+        }
+      }
+    }
+    .about-video {
+      width: 80%;
+      iframe {
+        height: 120%;
+      }
+    }
+  }
+}
