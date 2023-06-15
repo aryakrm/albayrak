@@ -111,6 +111,9 @@
       height: fit-content;
       width: 50%;
       text-align: center;
+      img {
+        width: 70%;
+      }
       div {
         display: flex;
         flex-direction: column;
