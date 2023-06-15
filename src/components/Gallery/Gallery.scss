@@ -1,1 +1,24 @@
-@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/bootstrap";
+@import "swiper/css";
+.siper-wrapper {
+  display: flex;
+  position: relative;
+  .swiper {
+    width: 60%;
+    height: 40%;
+    margin-top: 10rem;
+
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
