@@ -13,14 +13,14 @@ html {
 
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kanit", sans-serif;
   width: 100vw;
   height: 100%;
   overflow-x: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../public/assets/bg3.jpg);
+  /* background-image: url(../public/assets/bg4.jpg); */
   /* background-size: 200%; */
   position: relative;
 }

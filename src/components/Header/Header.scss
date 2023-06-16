@@ -13,13 +13,42 @@ header {
       z-index: 1;
       width: 100%;
     }
+
+    // --------------------  Animated text  ------------------------------------
+
+    @keyframes typewriter {
+      from {
+        width: 0;
+      }
+      to {
+        width: 710px;
+      }
+    }
+    @keyframes blinkTextCursor {
+      from {
+        border-right-color: hsl(0, 0%, 80%);
+      }
+      to {
+        border-right-color: transparent;
+      }
+    }
+
     h1 {
       color: white;
       position: absolute;
+      margin: 5rem;
       z-index: 3;
       font-size: 400%;
-      font-weight: 500;
+      font-weight: 800;
+      font-style: italic;
+      letter-spacing: 5px !important;
+      overflow: hidden;
+      border-right: 2px solid hsl(0, 0%, 80%);
+      white-space: nowrap;
+      animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms infinite;
     }
+
     .mouse {
       width: 50px;
       height: 90px;
@@ -88,6 +117,25 @@ header {
       }
       h1 {
         font-size: 200%;
+      }
+      .mouse {
+        width: 30px;
+        height: 50px;
+        &::before {
+          width: 6px;
+          height: 6px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  header {
+    .intro {
+      video {
+      }
+      h1 {
+        font-size: 100%;
       }
       .mouse {
         width: 30px;
