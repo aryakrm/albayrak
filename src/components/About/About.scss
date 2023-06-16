@@ -111,7 +111,7 @@
     display: flex;
     flex-direction: column;
     gap: 4%;
-    margin: 60% 0 55% 0;
+    margin: 65% 0 55% 0;
     .about-text {
       height: fit-content;
       width: 90%;
@@ -133,7 +133,6 @@
       }
     }
     .about-video {
-      margin-bottom: 5rem;
       width: 80%;
       iframe {
         height: 120%;
