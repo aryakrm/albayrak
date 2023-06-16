@@ -37,16 +37,34 @@ nav {
     // background-image: url(../../../public/assets/bg4.jpg);
     background-color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: fixed;
-    h1 {
-      z-index: 11;
-      color: white;
-      position: absolute;
+
+    .menu-list {
+      ul {
+        list-style: none;
+        color: #ff5714;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+        li {
+          h1 {
+            font-weight: 400;
+
+            padding-bottom: 2rem;
+          }
+        }
+      }
     }
     img {
       width: 15%;
+      margin-bottom: 3rem;
+      margin-top: 15rem;
     }
   }
 }

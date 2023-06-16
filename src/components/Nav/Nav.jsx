@@ -27,7 +27,30 @@ function Nav() {
       {active ? (
         <div className="side-menu">
           <img src="/assets/albayrakLogo.png" alt="" />
-          <div></div>
+          <div className="menu-list">
+            <ul>
+              <li>
+                <h1>Anasayfa</h1>
+              </li>
+              <li>
+                <ul className="services">
+                  <li>
+                    {" "}
+                    <h1>Hizmetler</h1>
+                  </li>
+                  <li>
+                    <h2>Sfero Döküm</h2>
+                  </li>
+                  <li>
+                    <h2>Pik Döküm</h2>
+                  </li>
+                  <li>
+                    <h2>Çelik Döküm</h2>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
           <div onClick={menuTogglerHandler} className="hamburger">
             {active ? (
               <AiOutlineClose className="_icon" />
