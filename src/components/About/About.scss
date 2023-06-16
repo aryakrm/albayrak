@@ -26,7 +26,6 @@
       gap: 2%;
       p {
         &:first-of-type {
-          border-right: 1px dotted white;
         }
       }
     }
@@ -83,7 +82,7 @@
     display: flex;
     flex-direction: column;
     gap: 1%;
-    margin: 70% 0 50% 0;
+    margin: 65% 0 50% 0;
     .about-text {
       height: fit-content;
       width: 50%;
@@ -95,7 +94,6 @@
           &:first-of-type {
             padding-bottom: 1rem;
             border-right: none;
-            border-bottom: 1px dotted white;
           }
         }
       }
@@ -113,7 +111,7 @@
     display: flex;
     flex-direction: column;
     gap: 4%;
-    margin: 110% 0 85% 0;
+    margin: 60% 0 55% 0;
     .about-text {
       height: fit-content;
       width: 90%;

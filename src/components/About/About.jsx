@@ -18,14 +18,6 @@ function About() {
             ederek, modern döküm tekniklerini en iyi şekilde uyguluyor ve
             müşteri beklentilerini karşılamayı amaçlıyoruz.
           </p>{" "}
-          <p>
-            Pik döküm, Sfero döküm ve Çelik döküm hizmetlerimizle geniş bir ürün
-            yelpazesine sahibiz. Müşteri odaklı yaklaşımımız, güvenilirlik ve
-            kalite ilkelerimizle sektörde güçlü bir marka olmayı hedefliyoruz.
-            Albayrak Döküm ve Metal Sanayi olarak, işimize olan tutkumuz ve
-            müşteri memnuniyetine verdiğimiz önemle sektördeki başarı hikayemizi
-            yazmaya devam ediyoruz.
-          </p>
         </div>
         <h3>Devamı...</h3>
       </div>
