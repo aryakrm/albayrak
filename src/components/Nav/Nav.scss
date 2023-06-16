@@ -1,19 +1,48 @@
 nav {
   position: absolute;
   margin-bottom: 2rem;
-  z-index: 2;
+  z-index: 5;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 4%;
   .nav-left {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     img {
-      width: 10%;
+      width: 15%;
     }
   }
-  .nav-right {
+  .hamburger {
+    position: absolute;
+    z-index: 20;
+    margin-left: auto;
+    right: 4%;
+    ._icon {
+      font-size: 2rem;
+      cursor: pointer;
+      color: rgb(243, 243, 243);
+    }
+  }
+  .side-menu {
+    position: absolute;
+    border-radius: 15px;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../../public/assets/bg3.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      z-index: 11;
+      color: white;
+      position: absolute;
+    }
+    img {
+      width: 15%;
+    }
   }
 }

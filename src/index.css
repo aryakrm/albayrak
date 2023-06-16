@@ -8,6 +8,7 @@ html {
   margin: 0;
   width: 100vw;
   overflow-x: hidden;
+  position: relative;
 }
 
 body {
@@ -21,6 +22,7 @@ body {
   align-items: center;
   background-image: url(../public/assets/bg3.jpg);
   /* background-size: 200%; */
+  position: relative;
 }
 
 code {
