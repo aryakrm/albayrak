@@ -92,6 +92,9 @@ header {
         &:hover {
           fill: black;
         }
+        &:visited {
+          fill: #ff5714;
+        }
       }
     }
   }

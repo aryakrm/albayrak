@@ -33,7 +33,7 @@ nav {
     border-radius: 15px;
     z-index: 10;
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     // background-image: url(../../../public/assets/bg4.jpg);
     background-color: white;
     display: flex;
@@ -41,6 +41,7 @@ nav {
     justify-content: center;
     align-items: center;
     position: fixed;
+    padding: 4rem;
 
     .menu-list {
       z-index: 10;
@@ -57,8 +58,37 @@ nav {
         li {
           h1 {
             font-weight: 400;
-
             padding-bottom: 2rem;
+          }
+          a {
+            text-decoration: none;
+            &:hover {
+              opacity: 0.5;
+            }
+            &:visited {
+              color: #ff5714;
+            }
+          }
+        }
+      }
+      .menu-list-contact {
+        padding: 1rem;
+        border-radius: 10px 0 0 10px;
+        background-color: white;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: center;
+        a {
+          svg {
+            font-size: 1.8rem;
+            fill: #ff5714;
+            &:hover {
+              opacity: 0.5;
+            }
+            &:visited {
+              fill: #ff5714;
+            }
           }
         }
       }
@@ -66,12 +96,12 @@ nav {
     img {
       width: 15%;
       margin-bottom: 3rem;
-      margin-top: 15rem;
+      margin-top: 35rem;
     }
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   nav {
     position: absolute;
     margin-bottom: 2rem;
@@ -89,6 +119,7 @@ nav {
         width: 10rem;
       }
     }
+
     .hamburger {
       position: absolute;
       z-index: 20;
@@ -99,6 +130,23 @@ nav {
         font-size: 2rem;
         cursor: pointer;
         color: #ff5714;
+      }
+    }
+    .side-menu {
+      .menu-list {
+        ul {
+          li {
+            a {
+              p {
+                font-size: 20rem !important;
+              }
+            }
+          }
+        }
+      }
+      img {
+        width: 50%;
+        margin-top: 40rem;
       }
     }
   }

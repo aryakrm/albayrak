@@ -4,7 +4,8 @@ import "./Header.scss";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
-import { BsWhatsapp } from "react-icons/bs";
+import { AiOutlineWhatsApp } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 function Header() {
   return (
@@ -17,7 +18,12 @@ function Header() {
         <h1>Yeni Nesil Dökümcü</h1>
         <div class="mouse"></div>
       </div>
-      <div className="contact-menu">
+      <motion.div
+        className="contact-menu"
+        initial={{ x: "-100vh" }}
+        animate={{ x: 0 }}
+        transition={{ type: "spring", stiffness: 50 }}
+      >
         <a
           href="https://instagram.com/metalcastingturkey?igshid=ZDc4ODBmNjlmNQ=="
           target="_blank"
@@ -31,9 +37,9 @@ function Header() {
           <AiFillMail />
         </a>
         <a href="https://wa.me/905534513885" target="_blank">
-          <BsWhatsapp />
+          <AiOutlineWhatsApp />
         </a>
-      </div>
+      </motion.div>
     </header>
   );
 }
