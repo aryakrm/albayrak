@@ -52,7 +52,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 0.5rem;
         text-align: center;
         z-index: 10;
         li {
@@ -62,8 +62,11 @@ nav {
           }
           a {
             text-decoration: none;
+            color: #ff5714;
+
             &:hover {
               opacity: 0.5;
+              cursor: pointer;
             }
             &:visited {
               color: #ff5714;
@@ -79,12 +82,14 @@ nav {
         gap: 0.5rem;
         align-items: center;
         justify-content: center;
+        margin-bottom: 2rem;
         a {
           svg {
             font-size: 1.8rem;
             fill: #ff5714;
             &:hover {
               opacity: 0.5;
+              cursor: pointer;
             }
             &:visited {
               fill: #ff5714;

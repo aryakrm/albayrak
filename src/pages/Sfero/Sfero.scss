@@ -1,30 +1,73 @@
 .Sfero {
+  overflow: hidden;
   position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../public/assets/dokumDetailBg.jpg);
   .title {
+    position: relative;
     display: flex;
     justify-content: center;
-    background-image: url("../../../public/assets/dokumDetailBg.jpg");
-    background-size: cover;
+    align-items: center;
     width: 100%;
-    height: 70rem;
-    // top: 5rem;
+    margin-top: 12rem;
     .text {
-      position: absolute;
       color: white;
-      top: 10rem;
-      padding: 5rem;
+      img {
+        width: 30rem;
+        border-radius: 10%;
+      }
+
+      position: static;
+      padding: 0.5rem 5rem 10rem 5rem;
       text-align: center;
       display: flex;
       flex-direction: column;
-      gap: 5rem;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+
       p {
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 400;
-        line-height: 2rem;
+        line-height: 1.5rem;
       }
     }
   }
 }
 
 @media screen and (max-width: 600px) {
+  .Sfero {
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: 0;
+      .text {
+        position: static;
+
+        padding: 5rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 5rem;
+        p {
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.5rem;
+        }
+      }
+    }
+  }
 }

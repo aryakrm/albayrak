@@ -7,25 +7,26 @@ function Sfero() {
       <div className="title">
         {/* <img src="/assets/bg3.jpg" alt="" /> */}
         <div className="text">
+          <img src="./assets/dokumler/sferoDokum.jpg" alt="" />
           <h1>Sfero Döküm</h1>
+          <h2>Gücün ve Dayanıklılığın Buluştuğu Nokta: Sfero Döküm</h2>
           <p>
-            Gücün ve Dayanıklılığın Buluştuğu Nokta: Sfero Döküm Albayrak Döküm
-            ve Metal Sanayi olarak, sfero döküm konusundaki uzmanlığımızla
-            müşterilerimize yüksek kaliteli sfero döküm parçaları sunmaktan
-            gurur duyuyoruz. Sfero döküm, endüstriyel uygulamalarda sağlamlık,
-            mukavemet ve dayanıklılık gerektiren parçaların üretiminde
-            kullanılan bir döküm yöntemidir. Bu özel döküm tekniği, grafit
-            modüllerinin dökme demir matrisinde bulunduğu bir yapıya sahip
-            olmasıyla karakterizedir. Sfero döküm, geleneksel dökme demirin
-            özelliklerini ve avantajlarını korurken, daha yüksek mukavemet ve
-            dayanıklılık sağlayarak üstün bir performans sunar. Sfero döküm,
-            endüstriyel projelerde sağlamlık ve güvenilirlik gerektiren birçok
-            sektörde kullanılan bir çözümdür. Albayrak Döküm ve Metal Sanayi
-            olarak, sfero döküm konusundaki uzmanlığımızı en son teknolojilerle
-            birleştirerek, müşterilerimize en üstün performansı sunuyoruz.
-            Nitelikli ve deneyimli ekibimiz, özgün tasarımlardan üretim
-            aşamasına kadar her adımda titizlikle çalışarak sizin için en iyi
-            sonuçları elde etmeyi hedefliyor. Her sektörden müşterimizin
+            Albayrak Döküm ve Metal Sanayi olarak, sfero döküm konusundaki
+            uzmanlığımızla müşterilerimize yüksek kaliteli sfero döküm parçaları
+            sunmaktan gurur duyuyoruz. Sfero döküm, endüstriyel uygulamalarda
+            sağlamlık, mukavemet ve dayanıklılık gerektiren parçaların
+            üretiminde kullanılan bir döküm yöntemidir. Bu özel döküm tekniği,
+            grafit modüllerinin dökme demir matrisinde bulunduğu bir yapıya
+            sahip olmasıyla karakterizedir. Sfero döküm, geleneksel dökme
+            demirin özelliklerini ve avantajlarını korurken, daha yüksek
+            mukavemet ve dayanıklılık sağlayarak üstün bir performans sunar.
+            Sfero döküm, endüstriyel projelerde sağlamlık ve güvenilirlik
+            gerektiren birçok sektörde kullanılan bir çözümdür. Albayrak Döküm
+            ve Metal Sanayi olarak, sfero döküm konusundaki uzmanlığımızı en son
+            teknolojilerle birleştirerek, müşterilerimize en üstün performansı
+            sunuyoruz. Nitelikli ve deneyimli ekibimiz, özgün tasarımlardan
+            üretim aşamasına kadar her adımda titizlikle çalışarak sizin için en
+            iyi sonuçları elde etmeyi hedefliyor. Her sektörden müşterimizin
             ihtiyaçlarını anlıyor, özelleştirilmiş çözümler sunarak iş
             ortaklığımızı güçlendiriyoruz. Sfero dökümün dayanıklılığı,
             mukavemeti ve işlenebilirliğiyle projelerinizi geleceğe taşıyoruz.

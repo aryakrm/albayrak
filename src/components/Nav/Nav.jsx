@@ -64,7 +64,7 @@ function Nav() {
               </li>
 
               <li>
-                <Link onClick={menuTogglerHandler} to={"/About"}>
+                <Link onClick={menuTogglerHandler} to={"/AboutUs"}>
                   <h1 style={{ fontWeight: "700" }}>Hakkımızda</h1>
                 </Link>
               </li>

@@ -1,4 +1,4 @@
-.Pik {
+.AboutUs {
   overflow: hidden;
   position: relative;
   width: 100vw;
@@ -39,13 +39,14 @@
 }
 
 @media screen and (max-width: 600px) {
-  .Pik {
+  .AboutUs {
     overflow: hidden;
     position: relative;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+
     .title {
       position: relative;
       display: flex;
