@@ -7,7 +7,7 @@ function AboutUs() {
       <div className="title">
         {/* <img src="/assets/bg3.jpg" alt="" /> */}
         <div className="text">
-          <img src="./assets/016.jpg" alt="" />
+          <img src="./assets/al.png" alt="" />
           <h1>AboutUs Döküm</h1>
           <h2>Gücün ve Dayanıklılığın Buluştuğu Nokta: AboutUs Döküm</h2>
           <p>
