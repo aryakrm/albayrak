@@ -7,7 +7,7 @@ function Pik() {
       <div className="title">
         {/* <img src="/assets/bg3.jpg" alt="" /> */}
         <div className="text">
-          <img src="./assets/dokumler/PikDokum.jpg" alt="" />
+          <img src="./assets/dokumler/pikDokum.jpg" alt="" />
           <h1>Pik Döküm</h1>
           <h2>Gücün ve Hassasiyetin Birleşimi: Pik Döküm</h2>
           <p>
