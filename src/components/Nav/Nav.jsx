@@ -40,7 +40,7 @@ function Nav() {
           <div className="menu-list">
             <ul>
               <li>
-                <Link to={"/home"}>
+                <Link onClick={menuTogglerHandler} to={"/home"}>
                   <h1 style={{ fontWeight: "700" }}>Anasayfa</h1>
                 </Link>
               </li>
@@ -48,23 +48,23 @@ function Nav() {
                 <h1 style={{ fontWeight: "700" }}>Hizmetler</h1>
               </li>
               <li>
-                <Link to={"/"}>
+                <Link onClick={menuTogglerHandler} to={"/Sfero"}>
                   <h1>Sfero Döküm</h1>
                 </Link>
               </li>
               <li>
-                <Link to={"/"}>
+                <Link onClick={menuTogglerHandler} to={"/Pik"}>
                   <h1>Pik Döküm</h1>
                 </Link>
               </li>
               <li style={{ borderBottom: "1px dotted #ff5714" }}>
-                <Link to={"/"}>
+                <Link onClick={menuTogglerHandler} to={"/Celik"}>
                   <h1>Çelik Döküm</h1>
                 </Link>
               </li>
 
               <li>
-                <Link to={"/"}>
+                <Link onClick={menuTogglerHandler} to={"/About"}>
                   <h1 style={{ fontWeight: "700" }}>Hakkımızda</h1>
                 </Link>
               </li>

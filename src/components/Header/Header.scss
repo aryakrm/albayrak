@@ -1,79 +1,7 @@
 header {
   width: 100%;
   position: relative;
-  .intro {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    video {
-      position: relative;
-      z-index: 1;
-      width: 100%;
-    }
 
-    // --------------------  Animated text  ------------------------------------
-
-    @keyframes typewriter {
-      from {
-        width: 0;
-      }
-      to {
-        width: 710px;
-      }
-    }
-    @keyframes blinkTextCursor {
-      from {
-        border-right-color: hsl(0, 0%, 80%);
-      }
-      to {
-        border-right-color: transparent;
-      }
-    }
-
-    h1 {
-      color: white;
-      position: absolute;
-      margin: 5rem;
-      margin-top: -15rem;
-      z-index: 3;
-      font-size: 400%;
-      font-weight: 600;
-      font-style: italic;
-      letter-spacing: 1px !important;
-      overflow: hidden;
-      border-right: 2px solid hsl(0, 0%, 80%);
-      white-space: nowrap;
-      animation: typewriter 4s steps(44) 1s 1 normal both,
-        blinkTextCursor 500ms infinite;
-    }
-
-    .mouse {
-      width: 50px;
-      height: 90px;
-      border: 2px solid #ffffff;
-      border-radius: 60px;
-      position: absolute;
-      z-index: 3;
-      margin-top: 30%;
-      &::before {
-        content: "";
-        width: 12px;
-        height: 12px;
-        position: absolute;
-        top: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: #ffffff;
-        border-radius: 50%;
-        opacity: 1;
-        animation: wheel 2s infinite;
-        -webkit-animation: wheel 2s infinite;
-      }
-    }
-  }
   .contact-menu {
     position: fixed;
     z-index: 3;
@@ -97,20 +25,6 @@ header {
         }
       }
     }
-  }
-}
-
-@keyframes wheel {
-  to {
-    opacity: 0;
-    top: 60px;
-  }
-}
-
-@-webkit-keyframes wheel {
-  to {
-    opacity: 0;
-    top: 60px;
   }
 }
 

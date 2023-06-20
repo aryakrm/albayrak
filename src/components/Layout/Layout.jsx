@@ -7,9 +7,9 @@ function Layout() {
   return (
     <>
       <Header />
-      <div>
-        <Routers />
-      </div>
+
+      <Routers />
+
       <Footer />
     </>
   );

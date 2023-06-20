@@ -11,13 +11,14 @@ function Header() {
   return (
     <header>
       <Nav />
-      <div className="intro">
+      {/* <div className="intro">
         <video loop muted autoPlay playsInline>
           <source src="/assets/dokumVideo.mp4" type="video/mp4" />
         </video>
         <h1>Yeni Nesil Dökümcü</h1>
         <div class="mouse"></div>
-      </div>
+      </div> */}
+
       <motion.div
         className="contact-menu"
         initial={{ x: "-100vh" }}
