@@ -62,7 +62,9 @@ function Nav() {
         <span onClick={selectTr} className="fi fi-tr"></span>
       </div>
       <div className="nav-left">
-        <img src="/assets/albayrakLogo.png" alt="" />
+        <Link to={"/home"}>
+          <img src="/assets/albayrakLogo.png" alt="" />
+        </Link>
       </div>
       <div onClick={menuTogglerHandler} className="hamburger">
         {active ? (
