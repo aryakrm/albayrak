@@ -66,13 +66,16 @@ function Nav() {
           <img src="/assets/albayrakLogo.png" alt="" />
         </Link>
       </div>
-      <div onClick={menuTogglerHandler} className="hamburger">
-        {active ? (
-          <AiOutlineClose className="_icon" />
-        ) : (
-          <GiHamburgerMenu className="_icon" />
-        )}
-      </div>
+      {!active ? (
+        <div onClick={menuTogglerHandler} className="hamburger">
+          {active ? (
+            <AiOutlineClose className="_icon" />
+          ) : (
+            <GiHamburgerMenu className="_icon" />
+          )}
+        </div>
+      ) : null}
+
       {active ? (
         <motion.div
           className="side-menu"
