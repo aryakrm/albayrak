@@ -1,25 +1,23 @@
 import React from "react";
 import "./About.scss";
+import { Link } from "react-router-dom";
+// import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 function About() {
+  const { t } = useTranslation();
   return (
     <div className="About">
       <div className="about-text">
         <img src="/assets/albayrakLogo.png" width="100px" alt="" />
 
-        <h2>Hakkımızda</h2>
+        <h2> {t("hakkimizda")}</h2>
         <div>
-          <p>
-            Albayrak Döküm ve Metal Sanayi, 2021 yılında kurulan bir döküm
-            firmasıdır. Genç ve dinamik yapımızla, döküm sektöründe hızla
-            büyümeyi hedefliyoruz. Uzman kadromuz ve deneyimli çalışanlarımızla,
-            en kaliteli döküm ürünlerini üretmek ve müşterilerimize üstün hizmet
-            sunmak için çaba gösteriyoruz. Teknolojik gelişmeleri yakından takip
-            ederek, modern döküm tekniklerini en iyi şekilde uyguluyor ve
-            müşteri beklentilerini karşılamayı amaçlıyoruz.
-          </p>{" "}
+          <p>{t("hakkimizda_home")}</p>{" "}
         </div>
-        <h3>Devamı...</h3>
+        <Link to={"/aboutUs"}>
+          <h3> {t("devami")} </h3>
+        </Link>
       </div>
       <div className="about-video">
         <iframe

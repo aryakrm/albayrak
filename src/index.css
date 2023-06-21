@@ -28,5 +28,35 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: unset;
+}
+
+/* ----------------------Scrollbar-------------------------------------------------------- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff5714;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e2622f;
+}
+
 @media screen and (max-width: 400px) {
 }

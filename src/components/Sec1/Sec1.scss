@@ -17,19 +17,35 @@
       position: relative;
       z-index: 1;
       border-radius: 10px;
+      &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
     }
-    &:hover {
-      opacity: 0.5;
-      cursor: pointer;
-    }
-    h2 {
-      position: absolute;
-      z-index: 4;
-      // margin-top: 8rem;
-      color: white;
-      background-color: black;
-      padding: 8px;
-      border-radius: 10px;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h2 {
+        position: absolute;
+        z-index: 4;
+        // margin-top: 8rem;
+        color: white;
+        background-color: black;
+        padding: 8px;
+        border-radius: 10px;
+      }
+      .dokumlerImg {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+        &:hover {
+          opacity: 0.5;
+          cursor: pointer;
+        }
+      }
     }
   }
 }
