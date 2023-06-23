@@ -63,7 +63,11 @@ function Nav() {
       </div>
       <div className="nav-left">
         <Link to={"/home"}>
-          <img src="/assets/albayrakLogo.png" alt="" />
+          <img
+            onClick={menuTogglerHandler}
+            src="/assets/albayrakLogo.png"
+            alt=""
+          />
         </Link>
       </div>
       {!active ? (
@@ -82,8 +86,13 @@ function Nav() {
           initial={{ y: "100vh" }}
           animate={{ y: 0 }}
           transition={{ type: "spring", stiffness: 50 }}
+          onClick={menuTogglerHandler}
         >
-          <img src="/assets/albayrakLogo.png" alt="" />
+          <img
+            onClick={menuTogglerHandler}
+            src="/assets/albayrakLogo.png"
+            alt=""
+          />
           <motion.div
             className="menu-list"
             initial={{ y: "300vh" }}
@@ -94,6 +103,11 @@ function Nav() {
               <li>
                 <Link onClick={menuTogglerHandler} to={"/home"}>
                   <h1 style={{ fontWeight: "700" }}> {t("anasayfa")}</h1>
+                </Link>
+              </li>
+              <li>
+                <Link onClick={menuTogglerHandler} to={"/AboutUs"}>
+                  <h1 style={{ fontWeight: "700" }}>{t("hakkimizda")}</h1>
                 </Link>
               </li>
               <li>
@@ -112,12 +126,6 @@ function Nav() {
               <li style={{ borderBottom: "1px dotted #ff5714" }}>
                 <Link onClick={menuTogglerHandler} to={"/Celik"}>
                   <h1>{t("celik")}</h1>
-                </Link>
-              </li>
-
-              <li>
-                <Link onClick={menuTogglerHandler} to={"/AboutUs"}>
-                  <h1 style={{ fontWeight: "700" }}>{t("hakkimizda")}</h1>
                 </Link>
               </li>
             </ul>

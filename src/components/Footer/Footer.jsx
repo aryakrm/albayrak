@@ -1,12 +1,58 @@
-import React from "react";
+import { useEffect, useState, React } from "react";
 import "./Footer.scss";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { ImLocation } from "react-icons/im";
+import { motion } from "framer-motion";
 
 function Footer() {
+  const [position, setPosition] = useState(window.pageYOffset);
+  const [visible, setVisible] = useState(true);
+  useEffect(() => {
+    const handleScroll = () => {
+      let moving = window.pageYOffset;
+
+      setVisible(position > moving);
+      setPosition(moving);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
+
+  const cls = visible ? "visible" + " " + "Footer" : "hidden" + " " + "Footer";
+
+  // const [show, setShow] = useState(true);
+  // const [lastScrollY, setLastScrollY] = useState(0);
+  // const controlFooter = () => {
+  //   if (typeof window !== "undefined") {
+  //     if (window.scrollY > lastScrollY) {
+  //       // if scroll down hide the navbar
+  //       setShow(false);
+  //     } else {
+  //       // if scroll up show the navbar
+  //       setShow(true);
+  //     }
+
+  //     // remember current page location to use in the next move
+  //     setLastScrollY(window.scrollY);
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   if (typeof window !== "undefined") {
+  //     window.addEventListener("scroll", controlFooter);
+
+  //     // cleanup function
+  //     return () => {
+  //       window.removeEventListener("scroll", controlFooter);
+  //     };
+  //   }
+  // }, [lastScrollY]);
+
   function selectEn() {
     let loc = "/";
     window.location.replace(loc + "?lng=en");
@@ -36,7 +82,13 @@ function Footer() {
     window.location.replace(loc + "?lng=tr");
   }
   return (
-    <div className="Footer">
+    <motion.div
+      // `Footer active ${show && "hidden"}`
+      className={cls}
+      initial={{ y: "100vh" }}
+      animate={{ y: 0 }}
+      transition={{ ease: "easeOut", duration: "1" }}
+    >
       <div className="top-footer">
         <img src="/assets/logo5.png" alt="Logo" />
         <div className="flags">
@@ -77,7 +129,7 @@ function Footer() {
           <AiOutlineWhatsApp />
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

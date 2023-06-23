@@ -3,7 +3,7 @@
 .siper-wrapper {
   display: flex;
   margin-top: 10rem;
-  margin-bottom: 1rem;
+  margin-bottom: 15rem;
   position: relative;
   .swiper {
     width: 60%;
@@ -27,7 +27,7 @@
 @media screen and (max-width: 800px) {
   .siper-wrapper {
     display: flex;
-    margin: 70% 0 10% 0;
+    margin: 80% 0 40% 0;
     .swiper {
       width: 80%;
       height: 50%;

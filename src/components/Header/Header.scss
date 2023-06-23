@@ -66,7 +66,20 @@ header {
       }
     }
     .contact-menu {
-      padding-right: 2rem;
+      padding: 0.5rem;
+      padding-right: 1rem;
+      a {
+        svg {
+          font-size: 1rem;
+          fill: #ff5714;
+          &:hover {
+            fill: black;
+          }
+          &:visited {
+            fill: #ff5714;
+          }
+        }
+      }
     }
   }
 }

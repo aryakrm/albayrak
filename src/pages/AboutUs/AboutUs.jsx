@@ -11,7 +11,15 @@ function AboutUs() {
       <img src="/assets/hakkimizda.jpg" alt="about us" />
       <div className="hakkimizda">
         <h1>{t("hakkimizda")}</h1> <br />
-        <p>{t("hakkimizda_text")}</p>
+        <h4>{t("hakkimizda_text1")}</h4> <br /> <br />
+        <p>{t("hakkimizda_text2")}</p>
+        <br />
+        <p>{t("hakkimizda_text3")}</p> <br />
+        <p>{t("hakkimizda_text4")}</p> <br />
+        <p>{t("hakkimizda_text5")}</p> <br />
+        <p>{t("hakkimizda_text6")}</p> <br />
+        <p>{t("hakkimizda_text7")}</p> <br />
+        <p>{t("hakkimizda_text8")}</p>
       </div>
       <div className="misyon">
         <div>
