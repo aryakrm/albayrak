@@ -7,13 +7,40 @@ function Sfero() {
   const { t } = useTranslation();
   return (
     <div className="Sfero">
-      <div className="title">
-        {/* <img src="/assets/bg3.jpg" alt="" /> */}
-        <div className="text">
-          <img src="./assets/dokumler/sferoDokum.jpg" alt="" />
-          <h1> {t("sfero")} </h1>
+      <div className="sfero_title">
+        <img src="/assets/sfero/sferoTitle.jpg" alt="Sfero" />
+        <div>
+          <h1>{t("sfero")}</h1>
           <h2>{t("sfero_title")}</h2>
-          <p>{t("sfero_text")}</p>
+          <a href="#sfero_text">
+            <p>{t("devami")}</p>
+          </a>
+        </div>
+      </div>
+      <div className="sfero_text" id="sfero_text">
+        <div>
+          <h1>{t("sfero")}</h1>
+          <p>
+            <img src="/assets/sfero/sferoText.jpg" alt="sfero" />
+            <span>
+              {t("sfero_text1")} <br />{" "}
+            </span>{" "}
+            <br />
+            <span>
+              {t("sfero_text2")}
+              <br />
+            </span>
+            <br />
+            <span>
+              {t("sfero_text3")}
+              <br />
+            </span>
+            <br />
+            <span>
+              {t("sfero_text4")}
+              <br />
+            </span>
+          </p>
         </div>
       </div>
     </div>

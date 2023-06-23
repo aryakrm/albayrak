@@ -49,13 +49,13 @@ a:visited {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ff5714;
+  background: #dc977c;
   border-radius: 20px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #e2622f;
+  background: #dc977c;
 }
 
 @media screen and (max-width: 400px) {

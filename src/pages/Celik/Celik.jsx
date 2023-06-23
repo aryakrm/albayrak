@@ -7,13 +7,50 @@ function Celik() {
   const { t } = useTranslation();
   return (
     <div className="Celik">
-      <div className="title">
-        {/* <img src="/assets/bg3.jpg" alt="" /> */}
-        <div className="text">
-          <img src="./assets/dokumler/CelikDokum.jpg" alt="" />
+      <div className="celik_title">
+        <img src="/assets/celik/celikTitle.jpg" alt="celik" />
+        <div>
           <h1>{t("celik")}</h1>
           <h2>{t("celik_title")}</h2>
-          <p>{t("celik_text")}</p>
+          <a href="#celik_text">
+            <p>{t("devami")}</p>
+          </a>
+        </div>
+      </div>
+      <div className="celik_text" id="celik_text">
+        <div>
+          <h1>{t("celik")}</h1>
+          <p>
+            <img src="/assets/celik/celikText.jpg" alt="celik" />
+            <span>
+              {t("celik_text1")} <br />{" "}
+            </span>{" "}
+            <br />
+            <span>
+              {t("celik_text2")}
+              <br />
+            </span>
+            <br />
+            <span>
+              {t("celik_text3")}
+              <br />
+            </span>
+            <br />
+            <span>
+              {t("celik_text4")}
+              <br />
+            </span>
+            <br />
+            <span>
+              {t("celik_text5")}
+              <br />
+            </span>
+            <br />
+            <span>
+              {t("celik_text6")}
+              <br />
+            </span>
+          </p>
         </div>
       </div>
     </div>

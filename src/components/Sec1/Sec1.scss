@@ -26,7 +26,7 @@
     a {
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-end;
       h2 {
         position: absolute;
         z-index: 4;
@@ -35,6 +35,7 @@
         background-color: black;
         padding: 8px;
         border-radius: 10px;
+        margin-bottom: 1rem;
       }
       .dokumlerImg {
         width: 100%;
