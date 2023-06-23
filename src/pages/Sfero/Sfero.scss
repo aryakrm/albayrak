@@ -70,5 +70,25 @@
         gap: 1rem;
       }
     }
+    .sfero_text {
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          img {
+            float: right;
+            width: 90%;
+            box-shadow: 10px 10px 10px #b8a097;
+          }
+        }
+      }
+    }
   }
 }
