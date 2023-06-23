@@ -1,5 +1,10 @@
 import React from "react";
 import "./Footer.scss";
+import { AiFillInstagram } from "react-icons/ai";
+import { AiFillYoutube } from "react-icons/ai";
+import { AiFillMail } from "react-icons/ai";
+import { AiOutlineWhatsApp } from "react-icons/ai";
+import { ImLocation } from "react-icons/im";
 
 function Footer() {
   function selectEn() {
@@ -43,14 +48,35 @@ function Footer() {
           <span onClick={selectAr} className="fi fi-sa"></span>
           <span onClick={selectTr} className="fi fi-tr"></span>
         </div>
-        <div>
-          <p>
-            Adres: Cevat Dündar Cd. Kavacıklı İş Merkezi <br /> 17/32 OSTİM OSB
-            ANKARA/YENİMAHALLE
-          </p>
-        </div>
       </div>
-      <p>© 2023 ALbayrak Döküm ve Metal Sanayi. All Rights Reserved</p>
+      <div className="adress">
+        <p>
+          <span>
+            <ImLocation />
+          </span>{" "}
+          Cevat Dündar Cd. Kavacıklı İş Merkezi <br /> 17/32 OSTİM OSB
+          YENİMAHALLE/ANKARA <br /> <br />
+          <span>info@albamtl.com</span> <br />
+          <span>+90 553 451 38 85</span>
+        </p>
+      </div>
+      <div className="footer_contact">
+        <a
+          href="https://instagram.com/metalcastingturkey?igshid=ZDc4ODBmNjlmNQ=="
+          target="_blank"
+        >
+          <AiFillInstagram />
+        </a>
+        <a href="https://www.youtube.com/@ALBAYRAKDOKUM" target="_blank">
+          <AiFillYoutube />
+        </a>
+        <a href="mailto:info@albamtl.com" target="_blank">
+          <AiFillMail />
+        </a>
+        <a href="https://wa.me/905534513885" target="_blank">
+          <AiOutlineWhatsApp />
+        </a>
+      </div>
     </div>
   );
 }

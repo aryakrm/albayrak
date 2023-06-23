@@ -1,7 +1,6 @@
 header {
   width: 100%;
   position: relative;
-
   .contact-menu {
     position: fixed;
     z-index: 3;
@@ -65,6 +64,9 @@ header {
           height: 6px;
         }
       }
+    }
+    .contact-menu {
+      padding-right: 2rem;
     }
   }
 }

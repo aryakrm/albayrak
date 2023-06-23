@@ -21,8 +21,8 @@ function Header() {
 
       <motion.div
         className="contact-menu"
-        initial={{ x: "-100vh" }}
-        animate={{ x: 0 }}
+        initial={{ y: "-100vh" }}
+        animate={{ y: 0 }}
         transition={{ type: "spring", stiffness: 50 }}
       >
         <a

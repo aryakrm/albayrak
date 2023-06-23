@@ -79,12 +79,17 @@ function Nav() {
       {active ? (
         <motion.div
           className="side-menu"
-          initial={{ x: "-100vh" }}
-          animate={{ x: 0 }}
+          initial={{ y: "100vh" }}
+          animate={{ y: 0 }}
           transition={{ type: "spring", stiffness: 50 }}
         >
           <img src="/assets/albayrakLogo.png" alt="" />
-          <div className="menu-list">
+          <motion.div
+            className="menu-list"
+            initial={{ y: "300vh" }}
+            animate={{ y: 0 }}
+            transition={{ ease: "easeOut", duration: "1" }}
+          >
             <ul>
               <li>
                 <Link onClick={menuTogglerHandler} to={"/home"}>
@@ -116,7 +121,12 @@ function Nav() {
                 </Link>
               </li>
             </ul>
-            <div className="menu-list-contact">
+            <motion.div
+              className="menu-list-contact"
+              initial={{ y: "350vh" }}
+              animate={{ y: 0 }}
+              transition={{ ease: "easeOut", duration: "1.5" }}
+            >
               <a
                 href="https://instagram.com/metalcastingturkey?igshid=ZDc4ODBmNjlmNQ=="
                 target="_blank"
@@ -132,8 +142,8 @@ function Nav() {
               <a href="https://wa.me/905534513885" target="_blank">
                 <AiOutlineWhatsApp />
               </a>
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
           <div onClick={menuTogglerHandler} className="hamburger">
             {active ? (
               <AiOutlineClose className="_icon" />
