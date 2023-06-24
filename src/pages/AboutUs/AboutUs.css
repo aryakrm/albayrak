@@ -1,0 +1,123 @@
+.AboutUs img {
+  width: 100%;
+}
+.AboutUs .hakkimizda {
+  padding: 4.5rem;
+  text-align: center;
+}
+.AboutUs .hakkimizda h1 {
+  color: #c67657;
+}
+.AboutUs .hakkimizda p {
+  line-height: 1.8rem;
+}
+.AboutUs .misyon {
+  display: flex;
+  padding: 4.5rem;
+  gap: 2rem;
+}
+.AboutUs .misyon div {
+  width: 50%;
+}
+.AboutUs .misyon div h1 {
+  color: #c67657;
+  margin-bottom: 2rem;
+}
+.AboutUs .misyon div p {
+  line-height: 1.8rem;
+}
+.AboutUs .misyon img {
+  width: 50%;
+  box-shadow: 10px 10px 10px #b8a097;
+}
+.AboutUs .vizyon {
+  display: flex;
+  padding: 4.5rem;
+  gap: 2rem;
+  margin-bottom: 10rem;
+}
+.AboutUs .vizyon div {
+  width: 50%;
+}
+.AboutUs .vizyon div h1 {
+  color: #c67657;
+  margin-bottom: 2rem;
+}
+.AboutUs .vizyon div p {
+  line-height: 1.8rem;
+}
+.AboutUs .vizyon img {
+  width: 50%;
+  box-shadow: 10px 10px 10px #b8a097;
+}
+.AboutUs .vizyon .vizyon_img {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .AboutUs img {
+    width: 100%;
+    height: 12rem;
+  }
+  .AboutUs .hakkimizda {
+    padding: 4.5rem;
+    text-align: center;
+  }
+  .AboutUs .hakkimizda h1 {
+    color: #c67657;
+  }
+  .AboutUs .hakkimizda p {
+    line-height: 1.8rem;
+  }
+  .AboutUs .misyon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4.5rem;
+    gap: 2rem;
+    align-items: center;
+  }
+  .AboutUs .misyon div {
+    width: 85%;
+    text-align: center;
+  }
+  .AboutUs .misyon div h1 {
+    color: #c67657;
+    margin-bottom: 2rem;
+  }
+  .AboutUs .misyon div p {
+    line-height: 1.8rem;
+  }
+  .AboutUs .misyon img {
+    width: 85%;
+    box-shadow: 10px 10px 10px #b8a097;
+  }
+  .AboutUs .vizyon {
+    display: flex;
+    padding: 4.5rem;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  .AboutUs .vizyon div {
+    text-align: center;
+    width: 85%;
+  }
+  .AboutUs .vizyon div h1 {
+    color: #c67657;
+    margin-bottom: 2rem;
+  }
+  .AboutUs .vizyon div p {
+    line-height: 1.8rem;
+  }
+  .AboutUs .vizyon img {
+    display: none;
+  }
+  .AboutUs .vizyon .vizyon_img {
+    display: flex;
+    width: 85%;
+    box-shadow: 10px 10px 10px #b8a097;
+  }
+}/*# sourceMappingURL=AboutUs.css.map */

@@ -1,0 +1,69 @@
+header {
+  width: 100%;
+  position: relative;
+}
+header .contact-menu {
+  position: fixed;
+  z-index: 3;
+  top: 50%;
+  right: 0;
+  padding: 1rem;
+  border-radius: 10px 0 0 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+header .contact-menu a svg {
+  font-size: 1.8rem;
+  fill: #ff5714;
+}
+header .contact-menu a svg:hover {
+  fill: black;
+}
+header .contact-menu a svg:visited {
+  fill: #ff5714;
+}
+
+@media screen and (max-width: 768px) {
+  header .intro h1 {
+    font-size: 200%;
+    margin-top: 0;
+  }
+  header .intro .mouse {
+    width: 30px;
+    height: 50px;
+  }
+  header .intro .mouse::before {
+    width: 6px;
+    height: 6px;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .intro h1 {
+    font-size: 80%;
+    margin-top: 5rem;
+  }
+  header .intro .mouse {
+    width: 30px;
+    height: 50px;
+  }
+  header .intro .mouse::before {
+    width: 6px;
+    height: 6px;
+  }
+  header .contact-menu {
+    padding: 0.5rem;
+    padding-right: 1rem;
+  }
+  header .contact-menu a svg {
+    font-size: 1rem;
+    fill: #ff5714;
+  }
+  header .contact-menu a svg:hover {
+    fill: black;
+  }
+  header .contact-menu a svg:visited {
+    fill: #ff5714;
+  }
+}/*# sourceMappingURL=Header.css.map */

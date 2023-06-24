@@ -1,0 +1,125 @@
+.intro {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.intro video {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+@-webkit-keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 710px;
+  }
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 710px;
+  }
+}
+@-webkit-keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0deg, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0deg, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+.intro h1 {
+  color: white;
+  position: absolute;
+  margin: 5rem;
+  margin-top: -15rem;
+  z-index: 3;
+  font-size: 320%;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 1px !important;
+  overflow: hidden;
+  border-right: 2px solid hsl(0deg, 0%, 80%);
+  white-space: nowrap;
+  -webkit-animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms infinite;
+          animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms infinite;
+}
+.intro .mouse {
+  width: 50px;
+  height: 90px;
+  border: 2px solid #ffffff;
+  border-radius: 60px;
+  position: absolute;
+  z-index: 3;
+  margin-top: 30%;
+}
+.intro .mouse::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity: 1;
+  animation: wheel 2s infinite;
+  -webkit-animation: wheel 2s infinite;
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro h1 {
+    font-size: 200%;
+    margin-top: 0;
+  }
+  .intro .mouse {
+    width: 30px;
+    height: 50px;
+  }
+  .intro .mouse::before {
+    width: 6px;
+    height: 6px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .intro h1 {
+    font-size: 80%;
+    margin-top: 5rem;
+  }
+  .intro .mouse {
+    width: 30px;
+    height: 50px;
+  }
+  .intro .mouse::before {
+    width: 6px;
+    height: 6px;
+  }
+}/*# sourceMappingURL=Intro.css.map */

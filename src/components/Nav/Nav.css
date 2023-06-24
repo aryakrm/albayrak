@@ -1,0 +1,175 @@
+nav {
+  position: absolute;
+  margin-bottom: 2rem;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+  width: 100%;
+}
+nav .flags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+nav .flags span {
+  width: 1rem;
+}
+nav .flags span:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+nav .nav-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+nav .nav-left a {
+  position: fixed;
+  margin-top: 1rem;
+}
+nav .nav-left a img {
+  width: 20%;
+  margin-left: 30%;
+}
+nav .hamburger {
+  position: absolute;
+  z-index: 20;
+  margin-left: auto;
+  right: 4%;
+  margin-right: 1%;
+}
+nav .hamburger ._icon {
+  font-size: 3rem;
+  cursor: pointer;
+  color: #ff5714;
+}
+nav .side-menu {
+  position: absolute;
+  border-radius: 15px;
+  z-index: 10;
+  width: 100vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding: 4rem;
+}
+nav .side-menu .menu-list {
+  z-index: 10;
+}
+nav .side-menu .menu-list ul {
+  list-style: none;
+  color: #ff5714;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+  z-index: 10;
+}
+nav .side-menu .menu-list ul li h1 {
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+nav .side-menu .menu-list ul li a {
+  text-decoration: none;
+  color: #ff5714;
+}
+nav .side-menu .menu-list ul li a:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+nav .side-menu .menu-list ul li a:visited {
+  color: #ff5714;
+}
+nav .side-menu .menu-list .menu-list-contact {
+  padding: 1rem;
+  border-radius: 10px 0 0 10px;
+  background-color: white;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+nav .side-menu .menu-list .menu-list-contact a svg {
+  font-size: 1.8rem;
+  fill: #ff5714;
+}
+nav .side-menu .menu-list .menu-list-contact a svg:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+nav .side-menu .menu-list .menu-list-contact a svg:visited {
+  fill: #ff5714;
+}
+nav .side-menu img {
+  width: 15%;
+  margin-bottom: 3rem;
+  margin-top: 35rem;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    position: absolute;
+    margin-bottom: 2rem;
+    z-index: 5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4%;
+  }
+  nav .flags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    gap: 0.3rem;
+  }
+  nav .flags span {
+    width: 0.8rem;
+  }
+  nav .flags span:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  nav .nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  nav .nav-left a img {
+    width: 10rem;
+    margin-left: -30%;
+  }
+  nav .hamburger {
+    position: absolute;
+    z-index: 20;
+    margin-left: auto;
+    margin-right: 5%;
+  }
+  nav .hamburger ._icon {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ff5714;
+  }
+  nav .side-menu .menu-list ul li a p {
+    font-size: 20rem !important;
+  }
+  nav .side-menu img {
+    width: 50%;
+    margin-top: 40rem;
+  }
+}/*# sourceMappingURL=Nav.css.map */

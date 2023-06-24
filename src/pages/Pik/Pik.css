@@ -1,0 +1,90 @@
+.Pik .pik_title {
+  display: flex;
+}
+.Pik .pik_title img {
+  width: 60%;
+  height: 90vh;
+}
+.Pik .pik_title div {
+  width: 40%;
+  height: 90vh;
+  background-color: #581900;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3rem;
+  gap: 1rem;
+  color: white;
+}
+.Pik .pik_title div h1 {
+  color: rgb(149, 92, 69);
+}
+.Pik .pik_title div a p {
+  color: #b8a097;
+  background-color: black;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  box-shadow: 1px 1px 1px rgb(149, 92, 69);
+}
+.Pik .pik_text {
+  padding: 5rem;
+  margin-bottom: 10rem;
+}
+.Pik .pik_text h1 {
+  margin-bottom: 2rem;
+  color: #c67657;
+}
+.Pik .pik_text p {
+  font-weight: 500;
+}
+.Pik .pik_text p img {
+  float: right;
+  width: 50%;
+  box-shadow: 10px 10px 10px #b8a097;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .Pik .pik_title {
+    display: flex;
+    flex-direction: column;
+  }
+  .Pik .pik_title img {
+    width: 100%;
+    height: 50%;
+  }
+  .Pik .pik_title div {
+    width: 100%;
+    height: 50%;
+    background-color: #d2cfcf;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .Pik .pik_text {
+    margin-bottom: 10rem;
+  }
+  .Pik .pik_text div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Pik .pik_text div p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .Pik .pik_text div p img {
+    float: right;
+    width: 90%;
+    box-shadow: 10px 10px 10px #b8a097;
+  }
+}/*# sourceMappingURL=Pik.css.map */
