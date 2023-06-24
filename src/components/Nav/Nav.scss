@@ -1,5 +1,5 @@
 nav {
-  position: fixed;
+  position: absolute;
   margin-bottom: 2rem;
   z-index: 10;
   display: flex;
@@ -28,6 +28,8 @@ nav {
     align-items: center;
     width: 100%;
     a {
+      position: fixed;
+      margin-top: 1rem;
       img {
         width: 20%;
         margin-left: 30%;
@@ -126,7 +128,7 @@ nav {
 
 @media screen and (max-width: 600px) {
   nav {
-    position: fixed;
+    position: absolute;
     margin-bottom: 2rem;
     z-index: 5;
     display: flex;
