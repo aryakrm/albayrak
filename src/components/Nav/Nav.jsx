@@ -70,7 +70,7 @@ function Nav() {
           />
         </Link>
       </div>
-      {!active ? (
+      {/* {!active ? (
         <div onClick={menuTogglerHandler} className="hamburger">
           {active ? (
             <AiOutlineClose className="_icon" />
@@ -78,7 +78,7 @@ function Nav() {
             <GiHamburgerMenu className="_icon" />
           )}
         </div>
-      ) : null}
+      ) : null} */}
 
       {active ? (
         <motion.div
