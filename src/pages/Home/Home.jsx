@@ -11,6 +11,19 @@ function Home() {
       <Sec1 />
       <About />
       <Gallery />
+      {/* <video src="/assets/altKisim.mp4"></video> */}
+      <video
+        className="altKisim"
+        width={"90%"}
+        style={{
+          marginBottom: "10rem",
+          marginLeft: "5%",
+        }}
+        muted
+        autoPlay={"autoplay"}
+      >
+        <source src="/assets/altKisim.mp4" type="video/mp4"></source>
+      </video>
     </div>
   );
 }
