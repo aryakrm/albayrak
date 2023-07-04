@@ -36,6 +36,18 @@ function AboutUs() {
         </div>
         <img className="vizyon_img" src="/assets/vizyon.jpg" alt="misyon" />
       </div>
+      <video
+        className="altKisim"
+        width={"90%"}
+        style={{
+          marginBottom: "10rem",
+          marginLeft: "5%",
+        }}
+        muted
+        autoPlay={"autoplay"}
+      >
+        <source src="/assets/altKisim2.mp4" type="video/mp4"></source>
+      </video>
     </motion.div>
   );
 }
