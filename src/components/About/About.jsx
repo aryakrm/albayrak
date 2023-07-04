@@ -21,7 +21,7 @@ function About() {
       </div>
       <div className="about-video">
         <iframe
-          src="https://www.youtube.com/embed/MxUMyxZsUFs?modestbranding=0&controls=0&autoplay=1&loop=1"
+          src="https://www.youtube.com/embed/fPkO8MNyWCM"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

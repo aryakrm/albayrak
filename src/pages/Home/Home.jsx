@@ -22,7 +22,7 @@ function Home() {
         muted
         autoPlay={"autoplay"}
       >
-        <source src="/assets/altKisim.mp4" type="video/mp4"></source>
+        <source src="/assets/altKisim2.mp4" type="video/mp4"></source>
       </video>
     </div>
   );

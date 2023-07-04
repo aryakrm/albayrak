@@ -93,9 +93,9 @@ function Footer() {
         <img src="/assets/logo5.png" alt="Logo" />
         <div className="flags">
           <span onClick={selectEn} className="fi fi-gb"></span>
-          <span onClick={selectIt} className="fi fi-it"></span>
           <span onClick={selectDe} className="fi fi-de"></span>
           <span onClick={selectRu} className="fi fi-ru"></span>
+          <span onClick={selectIt} className="fi fi-it"></span>
           <span onClick={selectFr} className="fi fi-fr"></span>
           <span onClick={selectAr} className="fi fi-sa"></span>
           <span onClick={selectTr} className="fi fi-tr"></span>
