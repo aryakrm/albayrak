@@ -1,6 +1,6 @@
-import { useState } from "react";
 // import Carousel from "react-bootstrap/Carousel";
 import "./Gallery.scss";
+import LazyLoad from "react-lazy-load";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -105,52 +105,84 @@ function ControlledCarousel() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/assets/01.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/01.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/02.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/02.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/03.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/03.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/04.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/04.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/05.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/05.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/06.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/06.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/07.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/07.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/08.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/08.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/09.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/09.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/010.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/010.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/011.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/011.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/012.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/012.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/013.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/013.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/014.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/014.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/015.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/015.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/016.jpg" alt="dokum" />
+          <LazyLoad>
+            <img src="/assets/016.jpg" alt="dokum" />
+          </LazyLoad>
         </SwiperSlide>
       </Swiper>
     </div>
