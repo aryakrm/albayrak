@@ -11,7 +11,7 @@ function Sec1() {
     <div className="Sec1">
       <div>
         <Link to={"/sfero"}>
-          <LazyLoad style={{ width: "30%" }}>
+          <LazyLoad className="dokumlerImg" style={{ width: "30%" }}>
             <img
               className="dokumlerImg"
               src="assets/dokumler/sferoDokum.jpg"
@@ -24,7 +24,7 @@ function Sec1() {
       </div>
       <div>
         <Link to={"/pik"}>
-          <LazyLoad style={{ width: "30%" }}>
+          <LazyLoad className="dokumlerImg" style={{ width: "30%" }}>
             <img
               className="dokumlerImg"
               src="assets/dokumler/pikDokum.jpg"
@@ -38,7 +38,7 @@ function Sec1() {
 
       <div>
         <Link to={"/celik"}>
-          <LazyLoad style={{ width: "30%" }}>
+          <LazyLoad className="dokumlerImg" style={{ width: "30%" }}>
             <img
               className="dokumlerImg"
               src="assets/dokumler/celikDokum.jpg"
