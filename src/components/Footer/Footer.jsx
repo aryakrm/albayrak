@@ -128,6 +128,9 @@ function Footer() {
         <a href="https://wa.me/905534513885" target="_blank">
           <AiOutlineWhatsApp />
         </a>
+        <a href="http://albayrak.autoline.com.tr/" target="_blank">
+          <img src="/assets/lineMedia.png" alt="LineMedia" />
+        </a>
       </div>
     </motion.div>
   );
