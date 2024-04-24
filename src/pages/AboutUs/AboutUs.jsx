@@ -24,7 +24,11 @@ function AboutUs() {
       <div className="misyon">
         <div>
           <h1>{t("misyon")}</h1>
-          <p>{t("misyon_text")}</p>
+          <p>Müşterilerimize yüksek kaliteli döküm ürünleri sunmak ve ihtiyaçlarını en iyi şekilde karşılamaktır.
+Müşteri memnuniyetini ön planda tutarak, sürekli olarak yenilikçi üretim yöntemlerini ve
+teknolojilerini takip ederek, sektördeki lider konumumuzu sürdürmek ve güçlendirmek için
+çalışıyoruz. Müşterilerimizin beklentilerini aşmak için kalite, esneklik ve zamanında teslimat
+konularında mükemmelliği hedefliyoruz.</p>
         </div>
         <img src="/assets/misyon.jpg" alt="misyon" />
       </div>
@@ -32,7 +36,12 @@ function AboutUs() {
         <img src="/assets/vizyon.jpg" alt="misyon" />
         <div>
           <h1>{t("vizyon")}</h1>
-          <p>{t("vizyon_text")}</p>
+          <p>Döküm sektöründe önde gelen bir firma olarak tanınmak ve müşterilerimize mükemmellik
+sağlamaktır. Sürekli olarak yenilikçi üretim tekniklerini benimseyerek, ürünlerimizin kalitesini artırıyor
+ve müşterilerimize en iyi çözümleri sunmak için çaba gösteriyoruz. Sürdürülebilirlik ilkelerini
+benimseyerek, çevreye duyarlı bir yaklaşımla çalışıyor ve sektörde örnek bir marka olmayı
+hedefliyoruz. Müşterilerimize değer veren, uzman kadromuzla birlikte büyümeyi ve başarıyı
+sürdürmek istiyoruz.</p>
         </div>
         <img className="vizyon_img" src="/assets/vizyon.jpg" alt="misyon" />
       </div>
